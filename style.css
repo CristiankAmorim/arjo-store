@@ -61,7 +61,7 @@ img {
 }
 
 .img-expandida {
-    transform: scale(1.8);
+    transform: scale(1.9);
     z-index: 10;
     position: relative;
 }
