@@ -55,3 +55,14 @@ footer {
     margin: auto;
 }
 
+img {
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.img-expandida {
+    transform: scale(1.8);
+    z-index: 10;
+    position: relative;
+}
+
