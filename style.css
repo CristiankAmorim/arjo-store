@@ -85,14 +85,20 @@ img {
 
     .produtos {
         width: 100%;
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
         margin: auto;
+        padding: 10px;
     }
 
     .produtos img {
         width: 100%;
         height: auto;
+        max-width: 150px;
+        margin: auto;
+        display: block;
+
     }
 
     footer {
@@ -101,7 +107,7 @@ img {
     }
 
     .titulo_interno {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     h1 img {
