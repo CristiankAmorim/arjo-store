@@ -66,3 +66,46 @@ img {
     position: relative;
 }
 
+@media (max-width: 768px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+        display: block;
+    }
+
+    .banners img {
+        width: 100%;
+        height: auto;
+    }
+
+    .produtos {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: auto;
+    }
+
+    .produtos img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    .titulo_interno {
+        font-size: 1.5em;
+    }
+
+    h1 img {
+        height: 60px;
+    }
+}
+
