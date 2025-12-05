@@ -96,6 +96,12 @@ img {
         gap: 10px;
     }
 
+    .produtos h2 {
+        grid-column: span 2;
+        text-align: center;
+        width: 100%;
+    }
+
     .produtos img {
         width: 100%;
         height: auto;
@@ -124,7 +130,7 @@ img {
     }
 
     .produtos img.selecionado {
-        transform: scale(1.1);
+        transform: scale(1.02);
         z-index: 10;
     }
 
