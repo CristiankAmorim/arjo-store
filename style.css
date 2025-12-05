@@ -106,10 +106,14 @@ img {
         font-size: 0.9em;
     }
 
+    .titulo {
+        font-size: 40px;
+    }
+
     .titulo_interno {
         font-size: 1.1em;
         width: 100%;
-        margin-left: 30px;
+        margin-left: 90px;
         text-align: center;
     }
 
