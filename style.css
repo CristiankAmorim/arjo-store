@@ -109,7 +109,7 @@ img {
     .titulo_interno {
         font-size: 1.1em;
         width: 100%;
-        padding: auto;
+        margin-left: 30px;
         text-align: center;
     }
 
