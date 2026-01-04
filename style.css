@@ -130,8 +130,7 @@ img {
     }
 
     .produtos img.selecionado {
-        transform: scale(1.01);
-        z-index: 10;
+        transform: none;
     }
 
     h1 img {
